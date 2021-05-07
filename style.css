@@ -7,5 +7,16 @@ padding: 15px;
 background-color: rosybrown;
 
 }
-
+#player1name,#player2name{
+    display:inline-block;
+    margin-left: 20px;
+}
+#output{
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    border-top:10px solid crimson;
+    padding:10px;
+    float:none;
+    text-align: left;
+}
      

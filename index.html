@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>>
     
     <title>Maths Quiz</title>
 
@@ -11,6 +14,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="main.js"></script>
+    <script src="quizgame.js"></script>
+
 
    
   </head>
@@ -27,10 +32,10 @@
           </div>
           <div class="login-form">
             <h3>Username</h3>
-            <input type="text" placeholder="Enter Username"/><br>
+            <input type="text" id="name1" placeholder="Enter Username"/><br>
              
             <br>
-            <input type="button" value="Enter " class="red"/></input>
+            <input type="button" onclick="adduser()"value="Enter " class="red"/></input>
             <br>
             
            
@@ -49,10 +54,10 @@
             </div>
             <div class="login-form">
               <h3>Username</h3>
-              <input type="text" placeholder="Enter Username"/><br>
+              <input id="name2" type="text" placeholder="Enter Username"/><br>
                
               <br>
-              <input type="button" value="Enter " class="red"/></input>
+              <input type="button" id="name" onclick="adduser()" value="Enter " class="red"/></input>
               <br>
               
              
